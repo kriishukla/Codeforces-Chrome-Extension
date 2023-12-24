@@ -1,21 +1,22 @@
-# Codeforces Rating Predictor Website
+# Codeforces Analysis Tool
 
-Elevate your Codeforces experience with the Codeforces Rating Predictor website, designed to forecast your rating in upcoming contests and enhance your profile page with a personalized touch.
-
-![Codeforces Rating Predictor](https://github.com/Enigma-52/Codeforces-Rating-Predictor/assets/95529619/7dc21096-7ad8-4251-827a-02f406bf9b46)
+This Python script provides an analysis of a Codeforces user's profile, including user information, weak tags, and suggested problems. It utilizes the Codeforces API to fetch relevant data.
 
 ## Features
 
-- **Rating Prediction Graph:** Dynamic graph displaying your predicted rating in the upcoming contests.
+- **User Details:** Fetches and displays basic user information such as handle and rank.
 
-- **Profile Page Enhancement:** Enjoy an improved layout for a more personalized experience.
+- **Weak Tags:** Identifies weak areas based on the user's solved problems, considering factors like tag frequency and average rating of last 10 solved problems.
 
-Check out the [Codeforces Rating Predictor](https://cf-predict.onrender.com/) to forecast your future ratings!
+- **Suggested Problems:** Recommends problems from identified weak tags, filtering by the user's rank and solved problem count.
 
-## Dependencies:
+## Prerequisites
 
-- **Prophet by Meta:** A time series forecasting library.
-- **Flask:** A lightweight web application framework.
-- **pandas:** A data manipulation and analysis library.
-- **numpy:** A library for numerical operations in Python.
-- **requests:** A library for making HTTP requests in Python.
+- Python 3.x
+- Required Python packages (install using `pip install package_name`):
+  - `requests`
+  - `datetime`
+
+## Frontend and Launching
+
+1. Frontend and a few more features are awaiting, thereby launching is paused and needs some time...
